@@ -1,7 +1,7 @@
 package com.zensar.coreJava.inheritance;
 
 public interface A {
-	public static int a = 5;
+	public int a = 5;
 	void methodA();
 	
 	default void methodB() {

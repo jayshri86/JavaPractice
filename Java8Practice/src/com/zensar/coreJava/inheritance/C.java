@@ -1,15 +1,17 @@
 package com.zensar.coreJava.inheritance;
 
 public class C extends Parent implements A,B{
-	public static int a = 10;
+	public int a = 10;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Parent obj = new C();
-		A obj1 = new C();
-		
-		obj1.methodB();
 		System.out.println("a = " + obj.a);
+		
+		A obj1 = new C();		
+		obj1.methodB();
+		System.out.println("a = " + obj1.a);
+		
 	}
 
 

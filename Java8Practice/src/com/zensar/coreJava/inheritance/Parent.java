@@ -3,7 +3,7 @@ package com.zensar.coreJava.inheritance;
 public class Parent {
 	String name;
 	int age;
-	public static int a = 7;
+	public int a = 7;
 	
 	protected Parent(){
 		
